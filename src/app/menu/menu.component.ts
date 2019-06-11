@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { Dish } from '../shared/dish';
-
 const DISHES: Dish[] = [
   {
     id: '0',
@@ -16,7 +15,7 @@ const DISHES: Dish[] = [
   {
     id: '1',
     name: 'Zucchipakoda',
-    image: '/assets/images/zucchipakoda.png',
+    image: '/assets/images/buffet.png',
     category: 'appetizer',
     featured: false,
     label: '',
@@ -54,7 +53,6 @@ const DISHES: Dish[] = [
 export class MenuComponent implements OnInit {
   dishes = DISHES;
 
-  selectedDish = DISHES[3];
 
   constructor() { }
 
